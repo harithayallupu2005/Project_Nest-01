@@ -1,0 +1,21 @@
+/* CSS for the navigation bar */
+.navbar {
+    background-color:blue; /* Set background color */
+    overflow: hidden; /* Hide overflow content */
+}
+
+/* Style for navigation bar links */
+.navbar a {
+    float: left; /* Make links appear side by side */
+    display: block; /* Display links as blocks */
+    color: white; /* Set text color */
+    text-align: center; /* Center-align text */
+    padding: 14px 16px; /* Add padding for spacing */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* On hover, change link color */
+.navbar a:hover {
+    background-color: #ddd; /* Change background color */
+    color: black; /* Change text color */
+}

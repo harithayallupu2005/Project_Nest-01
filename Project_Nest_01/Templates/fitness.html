@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: paleturquoise;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: teal;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+        }
+
+        .fitness-details {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        p {
+            font-size: 16px;
+            color:black;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness And Wellness Navigation</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fittness.css') }}">
+    
+</head>
+<body>
+    <!-- HTML for the navigation bar -->
+    <div class="navbar">
+        <a href="/"> Home</a>
+            <a href ="/about"  > About</a>
+            <a href ="/images" >  Images</a>  
+            <a href="/videos" >  videos </a>
+            <a href ="/fitness" > Fitness</a>
+            <a href ="/wellness" > Wellness</a>
+            <a href="/services" >services</a>
+            <a href="/contact">Contact</a>
+           <a href="/signup">signup</a>
+    </div>
+</body>
+</html>
+    <div class="container">
+        <h1>Fitness Details</h1>
+        <div class="fitness-details">
+            <p><span class="highlight">Name:</span> John Doe</p>
+            <p><span class="highlight">Age:</span> 30</p>
+            <p><span class="highlight">Weight:</span> 75 kg</p>
+            <p><span class="highlight">Height:</span> 180 cm</p>
+            <p><span class="highlight">BMI:</span> 23.15</p>
+            <p><span class="highlight">Workout Plan:</span> Cardio and Strength Training</p>
+        </div>
+    </div>
+</body>
+</html>

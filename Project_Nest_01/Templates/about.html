@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness and Wellness</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='about.css') }}">
+</head>
+<body>
+    
+    <nav class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/images">Images</a></li>
+            <li><a href="/videos">Videos</a></li>
+            <li><a href="/fitness">Fitness</a></li>
+            <li><a href="/wellness">Wellness</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <form class="logout-button" method="POST" action="/logout">
+                <input type="submit" value="Logout">
+            </form>
+        </ul>
+    </nav>
+    <header>
+        <h1>Fitness and Wellness</h1>
+    </header>
+    <div class="container">
+        <h2>Welcome to Our Fitness and Wellness </h2>
+        <p>
+            At our fitness center, we are dedicated to helping you achieve your health and wellness goals.
+            Whether you're looking to build strength, improve flexibility, or simply lead a healthier lifestyle,
+            we have the resources and expertise to guide you on your journey.
+        </p>
+        <p>
+            Our experienced trainers offer personalized workout plans and nutrition advice to ensure you reach
+            your fitness objectives. We believe that <span class="highlight">a healthy body leads to a happy life</span>,
+            and we're here to support you every step of the way.
+        </p>
+    </div>
+    <footer>
+        &copy; 2023 Fitness and Wellness Center
+    </footer>   
+</body>
+</html>

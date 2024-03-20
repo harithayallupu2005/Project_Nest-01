@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness And Wellness</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+</head>
+<body>
+    <h1>FITNESS AND WELLNESS</h1>
+    <nav class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/images">Images</a></li>
+            <li><a href="/videos">Videos</a></li>
+            <li><a href="/fitness">Fitness</a></li>
+            <li><a href="/wellness">Wellness</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <form class="logout-button" method="POST" action="/logout">
+                <input type="submit" value="Logout">
+            </form>
+        </ul>
+    </nav>
+
+    <div class="card-container">
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPACfET3trgPPPgbc1eAHds9lva1WH7yxHZg&usqp=CAU" alt="Fitness Image 1">
+            <h2>Fitness Basics</h2>
+            <p>Learn about the fundamentals of fitness and its benefits.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="https://d18zdz9g6n5za7.cloudfront.net/video/640/640-1455-intermediate-to-advanced-full-body-mobility-b774.jpg" alt="Fitness Image 2">
+            <h2>Advanced Workouts</h2>
+            <p>Discover advanced workout routines to boost your fitness level.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="https://static.toiimg.com/thumb/msid-89156449,width-748,height-499,resizemode=4,imgsize-40638/.jpg" alt="Wellness Image 1">
+            <h2>Wellness Tips</h2>
+            <p>Explore wellness tips and practices for a healthier lifestyle.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+            <img src="https://www.careinsurance.com/upload_master/media/posts/March2023/earn-and-brun-wellness-program.jpg" alt="Wellness Image 2">
+            <h2>Wellness Programs</h2>
+            <p>Learn about wellness programs designed for overall well-being.</p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card">
+            <img src="https://res.cloudinary.com/ekincare/image/upload/v1682505434/nzotqkhntrrpxwxicewx.jpg" alt="Wellness Image 3">
+            <h2>Healthy Living</h2>
+            <p>Discover the benefits of a healthy lifestyle and nutrition.</p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zml0bmVzc3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="Fitness Image 3">
+            <h2>Exercise Benefits</h2>
+            <p>Learn how exercise can improve your physical and mental health.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy;Fitness is Wellness</p>
+        <a href="mailto:FitnessisWellness@example.com"><li>Contact Me</li></a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+    font-family: arial, sans-serif;
+    background-color:sandybrown;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    color:black;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.service {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    color:green;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+/* CSS for the navigation bar */
+.navbar {
+    background-color: blue; /* Set background color */
+    overflow: hidden; /* Hide overflow content */
+}
+
+/* Style for navigation bar links */
+.navbar a {
+    float: left; /* Make links appear side by side */
+    display: block; /* Display links as blocks */
+    color: white; /* Set text color */
+    text-align: center; /* Center-align text */
+    padding: 14px 16px; /* Add padding for spacing */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* On hover, change link color */
+.navbar a:hover {
+    background-color: #ddd; /* Change background color */
+    color: black; /* Change text color */
+}
